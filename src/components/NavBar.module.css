@@ -1,0 +1,9 @@
+.taskbar {
+  background-color: #f8f8f8;
+  width: 50%;
+  border-radius: 10px;
+  height: 90%;
+
+  align-self: center;
+  color: #000000;
+}

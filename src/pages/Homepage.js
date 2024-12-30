@@ -1,7 +1,7 @@
 import Button from 'react-bootstrap/Button';
 function Homepage() {
   return (
-    <div className="text-center pt-5">
+    <div className="text-center">
       <h1>The First Sound</h1>
       <h3>A Miku Day Zine</h3>
       <h6>

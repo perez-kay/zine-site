@@ -16,14 +16,20 @@ export default function NavBar() {
   //   }, []);
 
   return (
-    <Navbar key="navbar" expand={false} className="bg-body-tertiary mb-3">
+    <Navbar
+      bg="transparent"
+      data-bs-theme="dark"
+      key="navbar"
+      expand={false}
+      className="mb-3"
+    >
       <Container fluid>
-        <Navbar.Brand href="#">Navbar Offcanvas</Navbar.Brand>
+        {/* <Navbar.Brand>&nbsp;</Navbar.Brand> */}
         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand`} />
         <Navbar.Offcanvas
           id={`offcanvasNavbar-expand`}
           aria-labelledby={`offcanvasNavbarLabel-expand`}
-          placement="end"
+          placement="start"
         >
           <Offcanvas.Header closeButton>
             <Offcanvas.Title id={`offcanvasNavbarLabel-expand`}>

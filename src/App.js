@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 
 import Homepage from './pages/Homepage';
 import About from './pages/About';
-import Artists from './pages/Artists';
+import Contributors from './pages/Contributors';
 import NavBar from './components/NavBar';
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Homepage />} />
             <Route path="/about" element={<About />} />
-            <Route path="/contributors" element={<Artists />} />
+            <Route path="/contributors" element={<Contributors />} />
           </Routes>
         </Container>
       </BrowserRouter>

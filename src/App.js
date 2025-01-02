@@ -11,16 +11,16 @@ import NavBar from './components/NavBar';
 function App() {
   return (
     <>
-      <NavBar />
-      <Container>
-        <BrowserRouter>
+      <BrowserRouter>
+        <NavBar />
+        <Container>
           <Routes>
             <Route path="/" element={<Homepage />} />
             <Route path="/about" element={<About />} />
             <Route path="/artists" element={<Artists />} />
           </Routes>
-        </BrowserRouter>
-      </Container>
+        </Container>
+      </BrowserRouter>
     </>
   );
 }

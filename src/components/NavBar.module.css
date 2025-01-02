@@ -1,9 +1,8 @@
-.taskbar {
-  background-color: #f8f8f8;
-  width: 50%;
-  border-radius: 10px;
-  height: 90%;
+:global(a.active) {
+  color: #007db2;
+}
 
-  align-self: center;
-  color: #000000;
+.navLink {
+  text-decoration: none;
+  color: #6fd8f7;
 }

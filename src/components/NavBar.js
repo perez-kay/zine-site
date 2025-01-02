@@ -7,15 +7,14 @@ import Nav from 'react-bootstrap/Nav';
 import { NavLink } from 'react-router-dom';
 
 export default function NavBar() {
-  //   const [date, setDate] = useState(new Date());
+  const [navOpen, setNavOpen] = useState(false);
+  function toggleNav() {
+    setNavOpen(!navOpen);
+  }
 
-  //   useEffect(() => {
-  //     let timer = setInterval(() => setDate(new Date()), 1000);
-  //     return function cleanup() {
-  //       clearInterval(timer);
-  //     };
-  //   }, []);
-
+  function handleClose() {
+    setNavOpen(false);
+  }
   return (
     <Navbar
       bg="transparent"
@@ -26,33 +25,52 @@ export default function NavBar() {
     >
       <Container fluid>
         {/* <Navbar.Brand>&nbsp;</Navbar.Brand> */}
-        <Navbar.Toggle aria-controls={`offcanvasNavbar-expand`} />
+        <Navbar.Toggle
+          aria-controls={`offcanvasNavbar-expand`}
+          onClick={toggleNav}
+        />
         <Navbar.Offcanvas
           id={`offcanvasNavbar-expand`}
           aria-labelledby={`offcanvasNavbarLabel-expand`}
           placement="top"
+          show={navOpen}
+          onHide={handleClose}
         >
-          <Offcanvas.Header closeButton className="pb-1">
-            <Offcanvas.Title
+          <Offcanvas.Header closeButton className="pb-0">
+            {/* <Offcanvas.Title
               className="fs-3"
               id={`offcanvasNavbarLabel-expand`}
             >
-              The First Sound
-            </Offcanvas.Title>
+              
+            </Offcanvas.Title> */}
+            <img
+              src="/images/logo.png"
+              className={styles.image}
+              alt="the first sound logo"
+            />
           </Offcanvas.Header>
           <Offcanvas.Body className="pb-3 overflow-y-hidden">
             <Nav className="justify-content-end flex-grow-1 pe-3">
-              <NavLink className={`${styles.navLink} fs-5 my-2`} to="/">
+              <NavLink
+                onClick={toggleNav}
+                className={`${styles.navLink} fs-5 my-2`}
+                to="/"
+              >
                 <i class="bi bi-house-fill"></i> Home
               </NavLink>
-              <NavLink className={`${styles.navLink} fs-5 my-2`} to="/about">
+              <NavLink
+                onClick={toggleNav}
+                className={`${styles.navLink} fs-5 my-2`}
+                to="/about"
+              >
                 <i class="bi bi-question-circle-fill"></i> About
               </NavLink>
               <NavLink
+                onClick={toggleNav}
                 className={`${styles.navLink} fs-5 mt-2 mb-3 `}
-                to="/artists"
+                to="/contributors"
               >
-                <i class="bi bi-brush-fill"></i> Artists
+                <i class="bi bi-brush-fill"></i> Contributors
               </NavLink>
               <a
                 className={`${styles.navLink} fs-5`}

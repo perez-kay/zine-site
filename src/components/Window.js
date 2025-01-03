@@ -1,3 +1,7 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faXmark, faWindowMinimize } from '@fortawesome/free-solid-svg-icons';
+import { faSquare } from '@fortawesome/free-regular-svg-icons';
+
 function WindowTopBar({ title, bgColor, borderColor, children }) {
   const style = {
     backgroundColor: bgColor,
@@ -20,15 +24,12 @@ function WindowTopBar({ title, bgColor, borderColor, children }) {
         className=" d-flex align-items-center justify-content-between"
         style={style}
       >
-        <h6 className="ms-2 mt-1">{title}</h6>
-        <div className="fs-6 d-flex align-items-center justify-content-end">
-          <i
-            style={iconStyle}
-            className="bi bi-dash-lg align-self-end px-1"
-          ></i>
-          <i style={iconStyle} className="bi bi-square px-1 ms-1"></i>
-          <i style={iconStyle} className="bi bi-x-lg window-icon px-1 ms-1"></i>
-          <p>&nbsp;</p>
+        <h5 className="ms-2 mt-1 py-1">{title}</h5>
+        <div className=" d-flex align-items-center justify-content-end">
+          <FontAwesomeIcon className="px-1" icon={faWindowMinimize} size="xl" />
+          <FontAwesomeIcon className="px-1" icon={faSquare} size="xl" />
+
+          <FontAwesomeIcon className="ps-1 pe-2" icon={faXmark} size="xl" />
         </div>
       </div>
       {children}

@@ -3,14 +3,26 @@
   src: url(./fonts/Retro\ Gaming.ttf) format('truetype');
 }
 
+/*
+blue window:
+  bg: rgba(9, 73, 170, 0.6)
+  border: #00b0ff
+  bar: #61ceff
+
+*/
+
 body {
   background: linear-gradient(
     180deg,
-    rgba(5, 10, 29, 1) 28%,
-    rgba(34, 52, 92, 1) 70%
+    rgba(5, 10, 29, 1) 50%,
+    rgb(20, 32, 56) 85%
   );
-  background-color: rgba(34, 52, 92, 1);
+  background-color: rgb(20, 32, 56);
   min-height: 100vh;
   color: white;
   font-family: 'Retro';
+}
+
+a {
+  color: #00b0ff;
 }

@@ -1,5 +1,5 @@
 function Contributors() {
-  return <div>This is the artist page</div>;
+  return <div>Contributors page</div>;
 }
 
 export default Contributors;

@@ -1,10 +1,17 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import styles from './NavBar.module.css';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import { NavLink } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faHouse,
+  faCircleQuestion,
+  faPaintBrush,
+} from '@fortawesome/free-solid-svg-icons';
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 export default function NavBar() {
   const [navOpen, setNavOpen] = useState(false);
@@ -24,7 +31,6 @@ export default function NavBar() {
       className="mb-3"
     >
       <Container fluid>
-        {/* <Navbar.Brand>&nbsp;</Navbar.Brand> */}
         <Navbar.Toggle
           aria-controls={`offcanvasNavbar-expand`}
           onClick={toggleNav}
@@ -37,12 +43,6 @@ export default function NavBar() {
           onHide={handleClose}
         >
           <Offcanvas.Header closeButton className="pb-0">
-            {/* <Offcanvas.Title
-              className="fs-3"
-              id={`offcanvasNavbarLabel-expand`}
-            >
-              
-            </Offcanvas.Title> */}
             <img
               src="/images/logo.png"
               className={styles.image}
@@ -56,21 +56,21 @@ export default function NavBar() {
                 className={`${styles.navLink} fs-5 my-2`}
                 to="/"
               >
-                <i class="bi bi-house-fill"></i> Home
+                <FontAwesomeIcon icon={faHouse} /> Home
               </NavLink>
               <NavLink
                 onClick={toggleNav}
                 className={`${styles.navLink} fs-5 my-2`}
                 to="/about"
               >
-                <i class="bi bi-question-circle-fill"></i> About
+                <FontAwesomeIcon icon={faCircleQuestion} /> About
               </NavLink>
               <NavLink
                 onClick={toggleNav}
                 className={`${styles.navLink} fs-5 mt-2 mb-3 `}
                 to="/contributors"
               >
-                <i class="bi bi-brush-fill"></i> Contributors
+                <FontAwesomeIcon icon={faPaintBrush} /> Contributors
               </NavLink>
               <a
                 className={`${styles.navLink} fs-5`}
@@ -78,7 +78,7 @@ export default function NavBar() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <i class="bi bi-twitter"></i> Twitter
+                <FontAwesomeIcon icon={faTwitter} /> Twitter
               </a>
             </Nav>
           </Offcanvas.Body>

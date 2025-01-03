@@ -33,9 +33,10 @@ function Homepage() {
           button below.
         </p>
         <Button style={{ backgroundColor: '#00b0ff' }}>
-          <a href="#" style={{ color: 'white' }}>
+          {/* <a href="#" style={{ color: 'white' }}>
             Download Zine PDF
-          </a>
+          </a> */}
+          Download Zine PDF
         </Button>
       </div>
     </div>

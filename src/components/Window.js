@@ -10,14 +10,6 @@ function WindowTopBar({ title, bgColor, borderColor, children }) {
     borderTopRightRadius: '2px',
   };
 
-  const iconStyle = {
-    // backgroundColor: 'white',
-    // color: 'rgb(186, 195, 206)',
-    // border: '2px solid rgb(186, 195, 206)',
-    // borderRadius: '5px',
-    color: 'white',
-  };
-
   return (
     <>
       <div

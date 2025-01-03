@@ -1,7 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
 
 import Homepage from './pages/Homepage';
 import About from './pages/About';
@@ -13,7 +11,7 @@ function App() {
     <>
       <BrowserRouter>
         <NavBar />
-        <Container>
+        <Container fluid className="p-0">
           <Routes>
             <Route path="/" element={<Homepage />} />
             <Route path="/about" element={<About />} />

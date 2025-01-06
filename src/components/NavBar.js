@@ -39,7 +39,7 @@ export default function NavBar() {
         <Navbar.Offcanvas
           id={`offcanvasNavbar-expand`}
           aria-labelledby={`offcanvasNavbarLabel-expand`}
-          placement="top"
+          placement="start"
           show={navOpen}
           onHide={handleClose}
         >
@@ -50,7 +50,7 @@ export default function NavBar() {
               alt="the first sound logo"
             />
           </Offcanvas.Header>
-          <Offcanvas.Body className="pb-3 overflow-y-hidden">
+          <Offcanvas.Body className="pb-3 overflow-y-auto">
             <Nav className="justify-content-end flex-grow-1 pe-3">
               <NavLink
                 onClick={toggleNav}
@@ -74,7 +74,7 @@ export default function NavBar() {
                 <FontAwesomeIcon icon={faPaintBrush} /> Contributors
               </NavLink>
               <a
-                className={`${styles.navLink} fs-5`}
+                className={`${styles.navLink} fs-5 mb-3`}
                 href="https://x.com/firstsoundzine"
                 target="_blank"
                 rel="noreferrer"

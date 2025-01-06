@@ -69,10 +69,10 @@ function ContributorCard({ artist }) {
   } = artist;
 
   return (
-    <Window title={<FontAwesomeIcon icon={faMusic} />}>
+    <Window title={<FontAwesomeIcon icon={faMusic} />} fullHeight>
       <img className="w-100" src={`/images/pfps/${name}.jpg`} alt="" />
       <div className="p-3">
-        <h1 className="pb-2">{name}</h1>
+        <h2 className="pb-2">{name}</h2>
         <h5 className="pb-2">{song}</h5>
         <div className="py-2">
           <div className={styles.musicBarDark}>

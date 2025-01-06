@@ -14,21 +14,33 @@ function KayModWindow() {
       borderColor="#7e51ea"
       barBgColor="#c4a8fb"
     >
-      <img className="w-100" src="/images/pfps/kay.jpg" alt="" />
+      <img className="w-100" src="/images/pfps/Kay.jpg" alt="" />
       <div className="text-start p-3">
         <h1>Kay</h1>
         <h4>Assistant Mod</h4>
         <div className="pb-1">
-          <a className="d-block fs-5" href="https://x.com/kaypxz">
+          <a
+            className="d-block fs-5"
+            href="https://x.com/kaypxz"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FontAwesomeIcon icon={faTwitter} /> @kaypxz
           </a>
           <a
             className="fs-5 d-block"
             href="https://bsky.app/profile/kaypxz.bsky.social"
+            target="_blank"
+            rel="noreferrer"
           >
             <FontAwesomeIcon icon={faBluesky} /> @kaypxz
           </a>
-          <a className="fs-5 d-block" href="https://www.instagram.com/kay.pxz/">
+          <a
+            className="fs-5 d-block"
+            href="https://www.instagram.com/kay.pxz/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FontAwesomeIcon icon={faInstagram} /> @kay.pxz
           </a>
         </div>

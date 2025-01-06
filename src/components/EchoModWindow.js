@@ -15,21 +15,22 @@ function EchoModWindow() {
         <h1>Echo</h1>
         <h4>Assistant & Social Media Mod</h4>
         <div className="pb-1">
-          <a className="d-block fs-5" href="https://x.com/chartrocity">
+          <a
+            className="d-block fs-5"
+            href="https://x.com/chartrocity"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FontAwesomeIcon icon={faTwitter} /> @chartrocity
           </a>
           <a
             className="fs-5 d-block"
-            href="https://www.bluesky.app/chartrocity.bsky.social/"
+            href="https://bsky.app/profile/chartrocity.bsky.social/"
+            target="_blank"
+            rel="noreferrer"
           >
             <FontAwesomeIcon icon={faBluesky} /> @chartrocity
           </a>
-          {/* <a
-            className="fs-5 d-block"
-            href="https://www.instagram.com/chartrocity/"
-          >
-            <FontAwesomeIcon icon={faInstagram} /> @chartrocity
-          </a> */}
         </div>
         <p className="mb-1">
           hi everyone, i’m echo! i’ve dabbled in a few zines the past couple of

@@ -19,18 +19,27 @@ function HazukiModWindow() {
         <h1>Hazuki</h1>
         <h4>Head Mod & Organizer</h4>
         <div className="pb-1">
-          <a className="d-block fs-5" href="https://x.com/hazukied">
+          <a
+            className="d-block fs-5"
+            href="https://x.com/hazukied"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FontAwesomeIcon icon={faTwitter} /> @hazukied
           </a>
           <a
             className="fs-5 d-block"
             href="https://bsky.app/profile/hazukied.bsky.social"
+            target="_blank"
+            rel="noreferrer"
           >
             <FontAwesomeIcon icon={faBluesky} /> @hazukied
           </a>
           <a
             className="fs-5 d-block"
             href="https://www.instagram.com/hazukied/"
+            target="_blank"
+            rel="noreferrer"
           >
             <FontAwesomeIcon icon={faInstagram} /> @hazukied
           </a>

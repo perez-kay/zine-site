@@ -8,21 +8,5 @@
 }
 
 .image {
-  width: 80%;
-}
-
-@media (min-width: 576px) {
-  .image {
-    width: 55%;
-  }
-}
-@media (min-width: 768px) {
-  .image {
-    width: 40%;
-  }
-}
-@media (min-width: 1200px) {
-  .image {
-    width: 25%;
-  }
+  width: 90%;
 }

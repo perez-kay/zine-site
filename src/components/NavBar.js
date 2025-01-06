@@ -10,6 +10,7 @@ import {
   faHouse,
   faCircleQuestion,
   faPaintBrush,
+  faStar,
 } from '@fortawesome/free-solid-svg-icons';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 
@@ -79,6 +80,14 @@ export default function NavBar() {
                 rel="noreferrer"
               >
                 <FontAwesomeIcon icon={faTwitter} /> Twitter
+              </a>
+              <a
+                className={`${styles.navLink} fs-5`}
+                href="https://firstsoundzine.neocities.org/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon icon={faStar} /> First Sound 2024
               </a>
             </Nav>
           </Offcanvas.Body>

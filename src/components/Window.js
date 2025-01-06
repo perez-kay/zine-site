@@ -35,15 +35,17 @@ export default function Window({
   bgColor = 'rgba(9, 73, 170, 0.6)',
   borderColor = '#00b0ff',
   fullWidth = false,
+  fullHeight = false,
   children,
 }) {
   return (
     <div
-      className={`shadow ${fullWidth ? 'd-block' : 'd-inline-block'} mb-3`}
+      className={`shadow ${fullWidth ? 'd-block' : 'd-inline-block'} mb-3 pb-3`}
       style={{
         backgroundColor: bgColor,
         border: `5px solid ${borderColor}`,
         borderRadius: '7px',
+        height: `${fullHeight ? '95%' : ''}`,
       }}
     >
       <WindowTopBar

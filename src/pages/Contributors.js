@@ -28,9 +28,9 @@ function Contributors() {
         zine!
       </h5>
       <Row>
-        {dataSlice.map((artist) => (
-          <Col md="6" lg="3">
-            <ContributorCard artist={artist} />
+        {dataSlice.map((artist, i) => (
+          <Col md="6" lg="3" key={`col${i}`}>
+            <ContributorCard artist={artist} key={artist.name} />
           </Col>
         ))}
       </Row>

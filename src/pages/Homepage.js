@@ -16,7 +16,7 @@ function Homepage() {
         />
         <h2 className="my-5">
           The World Is Hers in this zine dedicated entirely to Hatsune Miku!
-          Featuring 42 artworks paying tribute to her most iconic and classic
+          Featuring 52 artworks paying tribute to her most iconic and classic
           songs. Check out the zine below!
         </h2>
         <Window title="zine.exe" bgColor={'rgba(1, 58, 104, 0.66)'}>

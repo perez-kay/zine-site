@@ -5,7 +5,8 @@ function Hero() {
       className={`${styles.hero} px-4 py-5 text-center d-flex justify-content-center align-items-center`}
     >
       <h1 className="mx-4 p-3 fw-bold">
-        Experience the First Sounds of Hatsune Miku
+        {/* Experience the First Sounds of Hatsune Miku */}
+        The First Sound releases March 9th, 2025!
       </h1>
     </section>
   );

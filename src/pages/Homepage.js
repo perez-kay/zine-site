@@ -3,7 +3,6 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import styles from './Homepage.module.css';
 import Hero from '../components/Hero';
-import Countdown from 'react-countdown';
 import { useEffect, useState } from 'react';
 
 function Homepage() {

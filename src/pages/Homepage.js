@@ -1,9 +1,9 @@
-import Window from '../components/Window';
+// import Window from '../components/Window';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import styles from './Homepage.module.css';
 import Hero from '../components/Hero';
-import { useEffect, useState } from 'react';
+// import { useEffect, useState } from 'react';
 
 function Homepage() {
   return (

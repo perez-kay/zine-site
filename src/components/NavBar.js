@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faHouse,
   faCircleQuestion,
-  //faPaintBrush,
+  faPaintBrush,
   faStar,
 } from '@fortawesome/free-solid-svg-icons';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
@@ -66,13 +66,13 @@ export default function NavBar() {
               >
                 <FontAwesomeIcon icon={faCircleQuestion} /> About
               </NavLink>
-              {/* <NavLink
+              <NavLink
                 onClick={toggleNav}
                 className={`${styles.navLink} fs-5 mt-2 mb-3 `}
                 to="/contributors"
               >
                 <FontAwesomeIcon icon={faPaintBrush} /> Contributors
-              </NavLink> */}
+              </NavLink>
               <a
                 className={`${styles.navLink} fs-5 mt-2 mb-3`}
                 href="https://x.com/firstsoundzine"

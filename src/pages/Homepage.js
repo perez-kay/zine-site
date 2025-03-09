@@ -31,7 +31,12 @@ function Homepage() {
           button below.
         </p>
         <Button style={{ backgroundColor: '#00b0ff' }}>
-          <a href="#" style={{ color: 'white' }}>
+          <a
+            href="https://drive.google.com/file/d/1YcNzcbYO1ioXNvF0BJcjE6TK3QzCSSFm/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+            style={{ color: 'white' }}
+          >
             Download Zine PDF
           </a>
         </Button>

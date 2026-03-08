@@ -1,10 +1,6 @@
 import Window from './Window';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faBluesky,
-  faTwitter,
-  faInstagram,
-} from '@fortawesome/free-brands-svg-icons';
+import { faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 function KayModWindow() {
   return (

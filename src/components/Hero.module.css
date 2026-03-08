@@ -1,13 +1,50 @@
 .hero {
-  background-image: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.1) 0%,
-      rgba(0, 0, 0, 0.4) 100%
-    ),
+  background-image:
+    linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%),
     url('../../public/images/header.PNG');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 40vh;
   color: white;
+}
+
+/* obtained from here:  https://freefrontend.com/css-shine-effect/*/
+.shineButton {
+  position: relative;
+  padding: 1.2rem 2.5rem;
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  min-width: 200px;
+}
+
+.shineButton::before {
+  content: '';
+  position: absolute;
+  height: 250%;
+  width: 100px;
+  top: 0;
+  left: -60px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.4),
+    transparent
+  );
+  transform: rotate(45deg) translateY(-35%);
+  animation: shine 3s ease infinite;
+}
+
+@keyframes shine {
+  0% {
+    left: -300px;
+  }
+  40% {
+    left: calc(100% + 20px);
+  }
+  100% {
+    left: calc(100% + 20px);
+  }
 }

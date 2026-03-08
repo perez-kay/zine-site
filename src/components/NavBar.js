@@ -82,12 +82,20 @@ export default function NavBar() {
                 <FontAwesomeIcon icon={faTwitter} /> Twitter
               </a>
               <a
-                className={`${styles.navLink} fs-5`}
+                className={`${styles.navLink} fs-5 mt-2 mb-3`}
                 href="https://firstsoundzine.neocities.org/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <FontAwesomeIcon icon={faStar} /> First Sound 2024
+              </a>
+              <a
+                className={`${styles.navLink} fs-5`}
+                href="https://heyzine.com/flip-book/d9c713693f.html"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon icon={faStar} /> First Sound 2025
               </a>
             </Nav>
           </Offcanvas.Body>

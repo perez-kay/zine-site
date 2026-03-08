@@ -1,3 +1,5 @@
+// obtained from here: https://dev.to/selbekk/how-to-fade-in-content-as-it-scrolls-into-view-10j4
+
 import { useState, useRef, useEffect } from 'react';
 
 function FadeInSection(props, showOnce = true) {

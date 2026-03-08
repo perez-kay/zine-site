@@ -17,9 +17,9 @@ function About() {
           features tributes to classic songs from the late 2000s to mid 2010s.
           <br />
           <br />
-          The zine features 54 artists who each created a piece for a Miku song
+          The zine features 46 artists who each created a piece for a Miku song
           that's special to them in some way. Whether you've been a Vocaloid fan
-          for years or days, anyone can enjoy this zine!
+          for years or days, celebrate Miku Day with this zine!
         </p>
         <h1>Meet Your Mods!</h1>
       </FadeInSection>

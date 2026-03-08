@@ -33,16 +33,14 @@ function EchoModWindow() {
           </a>
         </div>
         <p className="mb-1">
-          hi everyone, i’m echo! i’ve dabbled in a few zines the past couple of
-          years, including First Sound 2024!
-          <br />
-          <br />i ran my own zine (twisted lullaby) with hazuki’s assistance and
-          learned so much from her, so i’m incredibly excited to be joining the
-          mod team for First Sound 2025!
+          hi everyone, i’m echo! i’m one of the mods in this zine and i’m happy
+          to be here for the 3rd iteration of First Sound!
           <br />
           <br />
-          this era of vocaloid is so special to me so i can’t wait for you all
-          to see the love all of us have poured into The First Sound 2025!
+          this era of vocaloid is what drove me to continue my creative
+          endeavors. growing up with hazuki, we’d share our love for these songs
+          and our passion for vocaloid with each other. First Sound is full of
+          passion from so many artists & i hope it inspires you all!
         </p>
       </div>
     </Window>

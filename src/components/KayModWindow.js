@@ -17,7 +17,7 @@ function KayModWindow() {
       <img className="w-100" src="/images/pfps/Kay.jpg" alt="" />
       <div className="text-start p-3">
         <h1>Kay</h1>
-        <h4>Assistant Mod</h4>
+        <h4>Assistant Mod & Web Developer</h4>
         <div className="pb-1">
           <a
             className="d-block fs-5"
@@ -27,14 +27,7 @@ function KayModWindow() {
           >
             <FontAwesomeIcon icon={faTwitter} /> @kaypxz
           </a>
-          <a
-            className="fs-5 d-block"
-            href="https://bsky.app/profile/kaypxz.bsky.social"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon icon={faBluesky} /> @kaypxz
-          </a>
+
           <a
             className="fs-5 d-block"
             href="https://www.instagram.com/kay.pxz/"
@@ -45,13 +38,14 @@ function KayModWindow() {
           </a>
         </div>
         <p className="mb-1">
-          Hi I'm Kay and I'm Kagamine Rin's biggest fan &lt;3
+          Hi I'm Kay! I'm so happy to be back for another year of The First
+          Sound! &lt;3
           <br />
           <br />
-          This is my second time running First Sound with Hazuki, and our third
-          time running a project together overall! I've been a Vocaloid fan and
-          digital artist since 2011. Rin is my favorite, my muse, and she keeps
-          me wanting to draw every day!
+          This is my third time running First Sound with Hazuki, and our fourth
+          project together overall! This era of Vocaloid is so nostalgic for me.
+          I spent my teens playing hours and hours of Project Diva F and F2nd on
+          the PS3, so these songs means so so much to me!
           <br />
           <br />
           I'm so excited for you all to see the work we've put into this

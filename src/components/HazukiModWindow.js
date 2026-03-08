@@ -45,15 +45,18 @@ function HazukiModWindow() {
           </a>
         </div>
         <p className="mb-1">
-          Hi there, i'm hazuki!
+          hello, i'm hazuki!
           <br />
           <br />
-          I'm the head organizer for this zine and this is my second year
-          running it. I have been an artist, creator, and Vocaloid fan for over
-          10 years. My passion for digital art started and continues with my
-          love for Hatsune Miku as a whole.
+          I am the head organiser for The First Sound, working alongside fellow
+          Vocaloid fans & artists for our third year. I have been an artist,
+          creator, and Vocaloid lover for 15 years. My passion for digital art
+          started and continues with my love for Hatsune Miku and Vocaloid as a
+          whole.
           <br />
-          <br />I hope you can feel our love with this project!
+          <br />
+          We are so happy to be back for yet another year of celebrating Miku
+          Day, and we hope you can feel the love, too!
         </p>
       </div>
     </Window>

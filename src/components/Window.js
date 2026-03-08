@@ -4,7 +4,6 @@ import { faSquare } from '@fortawesome/free-regular-svg-icons';
 
 function WindowTopBar({ title, bgColor, borderColor, children }) {
   const style = {
-    background: bgColor,
     background: `linear-gradient(90deg, ${bgColor} 35%, ${borderColor} 100%)`,
     borderBottom: `5px solid ${borderColor}`,
     borderTopLeftRadius: '2px',

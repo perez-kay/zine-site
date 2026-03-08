@@ -14,7 +14,7 @@ function HazukiModWindow() {
       borderColor="#00b0ff"
       barBgColor="#61ceff"
     >
-      <img className="w-100" src="/images/pfps/hazuki.png" alt="" />
+      <img className="w-100" src="/images/pfps/Hazuki.jpg" alt="" />
       <div className="text-start p-3">
         <h1>Hazuki</h1>
         <h4>Head Mod & Organizer</h4>

@@ -10,7 +10,7 @@ function EchoModWindow() {
       borderColor="#ff589d"
       barBgColor="#fca3c7"
     >
-      <img className="w-100" src="/images/pfps/echo.png" alt="" />
+      <img className="w-100" src="/images/pfps/Echo.jpg" alt="" />
       <div className="text-start p-3">
         <h1>Echo</h1>
         <h4>Assistant & Social Media Mod</h4>

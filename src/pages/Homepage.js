@@ -6,7 +6,7 @@ function Homepage() {
   return (
     <div className="text-center">
       <Hero />
-      <div className="mx-1 mb-4">
+      <div className="fadeIn mx-1 mb-4">
         <img
           className={`${styles.image} pt-4 px-2 px-lg-0`}
           src="/images/logo-alt.PNG"

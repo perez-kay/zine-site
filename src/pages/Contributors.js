@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Pagination from 'react-bootstrap/Pagination';
 import PageItem from 'react-bootstrap/PageItem';
+import FadeInSection from '../components/FadeInSection';
 import { CONTRIBUTOR_DATA } from '../data/ContributorData';
 import { useEffect, useState } from 'react';
 
@@ -15,7 +16,7 @@ function Contributors() {
   const [activeTab, setActiveTab] = useState(1);
   const dataSlice = CONTRIBUTOR_DATA.slice(
     ARTISTS_PER_PAGE * (activeTab - 1),
-    ARTISTS_PER_PAGE * activeTab
+    ARTISTS_PER_PAGE * activeTab,
   );
 
   useEffect(() => window.scroll(0, 0), [activeTab]);
@@ -29,8 +30,10 @@ function Contributors() {
       </h5>
       <Row>
         {dataSlice.map((artist, i) => (
-          <Col md="6" lg="3" key={`col${i}`}>
-            <ContributorCard artist={artist} key={artist.name} />
+          <Col md="6" lg="3">
+            <FadeInSection key={`col${i}`} showOnce={false}>
+              <ContributorCard artist={artist} key={artist.name} />
+            </FadeInSection>
           </Col>
         ))}
       </Row>

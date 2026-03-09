@@ -20,13 +20,13 @@ export const CONTRIBUTOR_DATA = [
     song: 'Chaining Intention',
   },
   {
-    name: 'asteriism',
+    name: 'asterriism',
     social1: 'twitter',
-    username1: 'asteriism',
+    username1: 'asterriism',
     social2: 'instagram',
-    username2: 'asteriism',
+    username2: 'asterriism',
     social3: 'tumblr',
-    username3: 'asteriism',
+    username3: 'asterriism',
     song: 'Burenai Ai De',
   },
   {

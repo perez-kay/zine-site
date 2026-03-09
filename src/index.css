@@ -11,6 +11,16 @@ blue window:
 
 */
 
+.image {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .image {
+    width: 60%;
+  }
+}
+
 body {
   background: linear-gradient(
     180deg,

@@ -13,7 +13,7 @@ function EchoModWindow() {
       <img className="w-100" src="/images/pfps/Echo.jpg" alt="" />
       <div className="text-start p-3">
         <h1>Echo</h1>
-        <h4>Assistant & Social Media Mod</h4>
+        <h4>Assistant Mod & Social Media Mod</h4>
         <div className="pb-1">
           <a
             className="d-block fs-5"

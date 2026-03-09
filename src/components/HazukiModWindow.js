@@ -48,7 +48,7 @@ function HazukiModWindow() {
           hello, i'm hazuki!
           <br />
           <br />
-          I am the head organiser for The First Sound, working alongside fellow
+          I am the head organizer for The First Sound, working alongside fellow
           Vocaloid fans & artists for our third year. I have been an artist,
           creator, and Vocaloid lover for 15 years. My passion for digital art
           started and continues with my love for Hatsune Miku and Vocaloid as a

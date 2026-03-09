@@ -21,7 +21,7 @@ function Homepage() {
           <iframe
             title="zine-flipbook"
             allowFullScreen="allowfullscreen"
-            src="https://heyzine.com/flip-book/d9c713693f.html"
+            src="https://heyzine.com/flip-book/d589bbe30f.html"
             style={{ width: '90vw', height: '800px' }}
             // style="border: 1px solid lightgray; width: 100%; height: 406px;"
           ></iframe>
@@ -32,7 +32,7 @@ function Homepage() {
         </p>
         <Button style={{ backgroundColor: '#00b0ff' }}>
           <a
-            href="https://drive.google.com/file/d/1YcNzcbYO1ioXNvF0BJcjE6TK3QzCSSFm/view?usp=sharing"
+            href="https://drive.google.com/file/d/1KtF58CvoelyzLVmUtDNYwFEOtQjTpsVS/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             style={{ color: 'white' }}

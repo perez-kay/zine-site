@@ -30,32 +30,10 @@ const renderer = ({ hours, minutes, seconds, completed }) => {
 function App() {
   return (
     <>
-      {/* <BrowserRouter>
-        <NavBar />
-        <Container fluid className="p-0">
-          <Routes>
-            <Route path="/" element={<Homepage />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contributors" element={<Contributors />} />
-          </Routes>
-        </Container>
-      </BrowserRouter> */}
       <Countdown
         date={new Date('March 9, 2026 12:00:00 GMT-7')}
         renderer={renderer}
       />
-      {/* <Countdown date={new Date('March 8, 2026 19:17:00 GMT-7')}>
-        <BrowserRouter>
-          <NavBar />
-          <Container fluid className="p-0">
-            <Routes>
-              <Route path="/" element={<Homepage />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/contributors" element={<Contributors />} />
-            </Routes>
-          </Container>
-        </BrowserRouter>
-      </Countdown> */}
     </>
   );
 }

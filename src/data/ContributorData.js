@@ -199,16 +199,7 @@ export const CONTRIBUTOR_DATA = [
     username3: '',
     song: 'Saihate',
   },
-  {
-    name: 'jem',
-    social1: 'twitter',
-    username1: 'artby_jem',
-    social2: '',
-    username2: '',
-    social3: '',
-    username3: '',
-    song: 'Toosenbo',
-  },
+
   {
     name: 'Jester',
     social1: 'twitter',
